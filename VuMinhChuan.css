@@ -1,0 +1,50 @@
+header {
+  background-color: pink;
+  text-align: center;
+}
+
+footer {
+  background-color: lavender;
+  text-align: right;
+}
+
+td img {
+  max-width: 30%;
+}
+
+tr td {
+  border: solid 1px #000;
+
+}
+
+body,
+header,
+footer {
+  max-width: 100%;
+  margin: auto;
+}
+
+tr td.image {
+  text-align: center;
+}
+
+table {
+  width: calc(100% - 50px);
+  margin: 25px;
+  border-collapse: collapse;
+}
+
+header,
+footer {
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+footer {
+  bottom: 0;
+}
+
+header {
+  top: 0;
+}
