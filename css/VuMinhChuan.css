@@ -1,0 +1,36 @@
+header {
+  background-color: pink;
+  text-align: center;
+}
+
+footer {
+  background-color: aqua;
+  text-align: right;
+}
+
+footer span {
+  padding: 10px;
+}
+
+td img {
+  max-width: 360px;
+}
+
+body,
+header,
+footer {
+  max-width: 100%;
+  margin: auto;
+}
+
+tr td.image {
+  text-align: center;
+}
+
+header {
+  min-height: 100px;
+}
+
+footer {
+  min-height: 50px;
+}
